@@ -27,7 +27,7 @@ function duplicateEncode(word) {
       word = word.replace(word[i], "(");
     }
   }
-  console.log(word);
+  return word;
 }
 
 duplicateEncode("hello");
